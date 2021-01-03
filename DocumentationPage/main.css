@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+@media(min-width:1024px) {
+    #container {
+        display: flex;
+        flex-direction: row;
+        color: #4d4e53;
+
+
+    }
+
+    #navvar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 300px;
+        background: white;
+        padding: 20px 0px 0px 0px;
+        /* This border property doesnt work*/
+        border-right: 1px solid black;
+    }
+
+    #navvar header {
+        font-size: 35px;
+        text-align: center;
+        color: black;
+        text-transform: capitalize;
+        padding: 0px 0px 10px 0px;
+
+    }
+
+    #navvar ul {
+        height: 88%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    #navvar ul li {
+        list-style-type: none;
+        background-color: white;
+        border-top: 1px solid black;
+        font-size: 18px;
+        letter-spacing: 0.4px;
+    }
+
+    .nave-link {
+        display: block;
+        color: #4d4e53;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 13px 0px 13px 30px;
+    }
+
+    #main-doc {
+        min-width: 724px;
+        background: white;
+        height: 100%;
+        position: fixed;
+        left: 300px;
+        top: 0;
+    }
+
+    .section-container {
+        height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .main-section header {
+        font-size: 30px;
+        font-weight: 600;
+        margin: 25px 0px 15px 20px;
+    }
+
+    .main-section p {
+        font-size: 0.95em;
+        line-height: 1.5em;
+        display: block;
+        margin: 5px 15px 20px 35px;
+    }
+
+    li {
+        display: list-item;
+
+    }
+
+    .main-section li {
+        font-size: 0.95em;
+        line-height: 1.5em;
+        margin: 10px 20px 20px 80px;
+    }
+
+    .main-section code {
+        display: block;
+        width: 80%;
+        background-color: #f7f7f7;
+        padding: 15px;
+        margin-left: 60px;
+        white-space: pre-line;
+        line-height: 2em;
+    }
+
+}
+
+@media (max-width:640px) {
+    #container {
+        background: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navvar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 40vh;
+        width: 100vw;
+        background: white;
+        padding: 20px 0px 0px 0px;
+        /* This border property doesnt work*/
+        border-bottom: 1px solid black;
+
+
+    }
+
+    #navvar header {
+        font-size: 35px;
+        text-align: center;
+        color: black;
+        text-transform: capitalize;
+        padding: 0px 0px 10px 0px;
+
+
+    }
+
+    #navvar ul {
+        height: 90%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    #navvar ul li {
+        list-style-type: none;
+        background-color: white;
+        border-top: 1px solid black;
+        font-size: 18px;
+        letter-spacing: 0.4px;
+    }
+
+    .nave-link {
+        display: block;
+        color: #4d4e53;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 13px 0px 13px 30px;
+    }
+
+
+    #main-doc {
+        width: 100vw;
+        background: white;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 40vh;
+
+    }
+
+    .section-container {
+        height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+    }
+
+    .main-section header {
+        font-size: 30px;
+        font-weight: 600;
+        margin: 25px 0px 15px 20px;
+    }
+
+    .main-section p {
+        font-size: 0.95em;
+        line-height: 1.5em;
+        display: block;
+        margin: 0px 15px 20px 35px;
+    }
+
+    li {
+        display: list-item;
+
+    }
+
+    .main-section li {
+        font-size: 0.95em;
+        line-height: 1.5em;
+        margin: 10px 20px 20px 80px;
+    }
+
+    .main-section code {
+        display: block;
+        width: 70%;
+        background-color: #f7f7f7;
+        padding: 15px;
+        margin-left: 50px;
+        white-space: pre-line;
+        line-height: 2em;
+    }
+}

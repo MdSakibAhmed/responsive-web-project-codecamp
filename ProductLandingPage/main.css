@@ -1,0 +1,269 @@
+body {
+    background: #EEEEEE;
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+ a {
+     text-decoration: none;
+     color: black;
+ }
+
+@media (min-width:1024px) {
+
+    #header {
+        background: #31292927;
+        position: fixed;
+        top: 0;
+        padding-top: 20px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        z-index: 9;
+    }
+   
+
+    #header-img {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    #nav-var {
+        width: 70%;
+    }
+
+    .nav-link {
+        float: right;
+    }
+
+    .nav-link li {
+        float: left;
+        margin: 10px 40px 0px 40px;
+        font-size: 1.2em;
+        list-style-type: none;
+
+    }
+    
+    #section-1 {
+        margin-top: 100px;
+    }
+
+    fieldset {
+        position: relative;
+        padding-bottom: 100px;
+        padding-top: 20px;
+        border: none;
+    }
+    #section-1 h1 {
+        text-align: center;
+        font-size: 30px;
+
+    }
+
+    #email {
+        width: 300px;
+        height: 30px;
+        font-size: 18px;
+        padding-left: 10px;
+        display: block;
+        margin: 0 auto;
+
+
+    }
+
+    #submit {
+        width: 150px;
+        height: 35px;
+        display: block;
+        margin: 20px auto;
+        background: #F1C40F;
+        color: black;
+        font-size: 16px;
+        padding: 5px;
+        text-transform: uppercase;
+        cursor: pointer;
+        border: none;
+
+    }
+
+    #video {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .pricing-table {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .table h1 {
+        background-color: #DDDDDD;
+        padding: 15px 30px;
+        font-size: 18px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .table h2 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .table {
+        width: 30%;
+        text-align: center;
+        line-height: 1.9em;
+        margin: 0 auto;
+        border: 1px solid black;
+        padding-bottom: 15px;
+
+
+
+
+    }
+
+    .table button {
+        background: #F1C40F;
+        padding: 10px 20px;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    
+}
+
+@media (max-width:640px) {
+    #header {
+        background: #eeeeee27;
+        position: fixed;
+        top: 0;
+        padding-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    #header-img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #nav-var {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .nav-link li {
+        margin: 0px 0px 0px 0px;
+        font-size: 1.2em;
+        line-height: 1.7em;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    #section-1 {
+        margin-top: 180px;
+    }
+
+    fieldset {
+        position: relative;
+        padding-bottom: 100px;
+        padding-top: 20px;
+        border: none;
+    }
+
+    #section-1 h1 {
+        text-align: center;
+        font-size: 30px;
+
+    }
+
+    #email {
+        width: 300px;
+        height: 30px;
+        font-size: 18px;
+        padding-left: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #submit {
+        width: 150px;
+        height: 35px;
+        display: block;
+        margin: 20px auto;
+        background: #F1C40F;
+        color: black;
+        font-size: 16px;
+        padding: 5px;
+        text-transform: uppercase;
+        cursor: pointer;
+        border: none;
+
+
+    }
+     #video {
+         width: 100%;
+         margin: 0 auto;
+
+     }
+
+    .pricing-table {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .table h2 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .table {
+        width: 80%;
+        text-align: center;
+        line-height: 1.9em;
+        margin: 0 auto;
+        border: 1px solid black;
+        padding-bottom: 15px;
+    }
+
+    .table h1 {
+        background-color: #DDDDDD;
+        padding: 15px 30px;
+        font-size: 18px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .table button {
+        background: #F1C40F;
+        padding: 10px 20px;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+
+    }
+}
+.feature-list {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.common {
+    margin: 0px 0px 30px 0px;
+}
+
+
